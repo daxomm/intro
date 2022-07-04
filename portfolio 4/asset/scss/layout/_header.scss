@@ -1,0 +1,23 @@
+.header{
+  background: #fff;
+  color:#070401;
+  height: 50vh;
+  .inner{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo-area{
+    font-size: 130px;
+    }
+    &-msg{
+      font-size: 30px;
+      margin-left: auto;
+      margin-right: 50px;
+  }
+  .nav-area{
+   font-size: 30px;
+  }
+
+}
