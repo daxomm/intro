@@ -1,23 +1,38 @@
-.header{
-  background: #fff;
-  color:#070401;
-  height: 50vh;
-  .inner{
-    padding: 50px;
+.header {
+  background: #151515;
+  color: #fff;
+  height: 100vh;
+
+  .inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  .logo-area{
-    font-size: 130px;
-    }
-    &-msg{
-      font-size: 30px;
-      margin-left: auto;
-      margin-right: 50px;
-  }
-  .nav-area{
-   font-size: 30px;
+    padding: 10px 15px;
+    border-bottom: 1px solid #fff;
   }
 
+  .logo-area {
+    font-size: 50px;
+
+    .link-logo {
+      display: block;
+    }
+  }
+
+  .link-contact {
+    font-size: 30px;
+  }
+
+  &-msg {
+    font-size: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    .msg1{
+      margin-bottom: 30px;
+    }
+  }
 }

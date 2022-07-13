@@ -25,9 +25,7 @@ $(function(){
 
 
    
-    scrollbar.addListener(function (status) { //Scrollbar쓴는순간ㄴ 스크롤이벤트는 못씀 
+    scrollbar.addListener(function (status) { //Scrollbar 쓰는 순간 스크롤 이벤트는 못씀 
         ScrollTrigger.refresh();
     });
-
-    
 })
