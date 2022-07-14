@@ -108,13 +108,13 @@ input::-webkit-inner-spin-button, input::-webkit-outer-spin-button, textarea::-w
 
 .sc-project .project-item .link-project .txt-box .category-list { display: -webkit-box; display: -ms-flexbox; display: flex; }
 
-.sc-project .project-item .link-project .txt-box .category-list .category-item { border: 1px solid #fff; border-radius: 20px; font-size: 26px; line-height: 42px; letter-spacing: -0.03em; text-align: center; padding: 0 15px 0 15px; }
+.sc-project .project-item .link-project .txt-box .category-list .category-item { color: #fff; font-size: 20px; letter-spacing: 2.5px; border-radius: 34px; height: 34px; line-height: 34px; padding: 0 10px; border: 1px solid #fff; }
 
 .sc-project .project-item .link-project .txt-box .category-list .category-item + .category-item { margin-left: 10px; }
 
 .sc-project .project-item .link-project .txt-box h3 { font-size: 10vw; }
 
-.sc-project .project-item .btn-box { position: absolute; padding: 50px; left: 0; top: 60%; opacity: 0; }
+.sc-project .project-item .btn-box { position: absolute; padding: 50px; left: 0; top: 58%; opacity: 0; }
 
 .sc-project .project-item .btn-box a { background: #fff; color: #000; font-size: 22px; letter-spacing: 2.5px; border-radius: 34px; height: 34px; line-height: 34px; padding: 0 20px; }
 

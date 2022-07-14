@@ -33,13 +33,14 @@
           display: flex;
   
           .category-item {
+            color: #fff;
+            font-size: 20px;
+            letter-spacing: 2.5px;
+            border-radius: 34px;
+            height: 34px;
+            line-height: 34px;
+            padding: 0 10px;
             border: 1px solid #fff;
-            border-radius: 20px;
-            font-size: 26px;
-            line-height: 42px;
-            letter-spacing: -0.03em;
-            text-align: center;
-            padding: 0 15px 0 15px;
           }
   
           .category-item+.category-item {
@@ -57,7 +58,7 @@
       position: absolute;
       padding: 50px;
       left: 0;
-      top: 60%;
+      top: 58%;
       opacity: 0;
 
       a {
