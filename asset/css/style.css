@@ -92,9 +92,9 @@ input::-webkit-inner-spin-button, input::-webkit-outer-spin-button, textarea::-w
 
 .header .link-contact { font-size: 30px; }
 
-.header-msg { font-size: 130px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; height: 100%; }
+.header .msg-box { font-size: 130px; height: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; opacity: 0; }
 
-.header-msg .msg1 { margin-bottom: 30px; }
+.header .msg-box .msg-wrap { display: -webkit-box; display: -ms-flexbox; display: flex; }
 
 .sc-project .project-item { position: relative; }
 
@@ -104,7 +104,7 @@ input::-webkit-inner-spin-button, input::-webkit-outer-spin-button, textarea::-w
 
 .sc-project .project-item .link-project .img-box img { width: 100%; height: 150%; -o-object-fit: cover; object-fit: cover; -webkit-transition: opacity 0.3s; transition: opacity 0.3s; }
 
-.sc-project .project-item .link-project .txt-box { position: absolute; right: 0; padding: 50px; color: #fff; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); text-align: right; opacity: 0; }
+.sc-project .project-item .link-project .txt-box { position: absolute; left: 0; padding: 50px; color: #fff; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); text-align: left; opacity: 0; }
 
 .sc-project .project-item .link-project .txt-box .category-list { display: -webkit-box; display: -ms-flexbox; display: flex; }
 
@@ -114,13 +114,13 @@ input::-webkit-inner-spin-button, input::-webkit-outer-spin-button, textarea::-w
 
 .sc-project .project-item .link-project .txt-box h3 { font-size: 10vw; }
 
-.sc-project .project-item .btn-box { position: absolute; padding: 50px; left: 0; bottom: 0; opacity: 0; }
+.sc-project .project-item .btn-box { position: absolute; padding: 50px; left: 0; top: 60%; opacity: 0; }
 
-.sc-project .project-item .btn-box a { background: #fff; color: #000; font-size: 22px; letter-spacing: 2.5px; border-radius: 20px; padding: 0.3vw 0.6vw; }
+.sc-project .project-item .btn-box a { background: #fff; color: #000; font-size: 22px; letter-spacing: 2.5px; border-radius: 34px; height: 34px; line-height: 34px; padding: 0 20px; }
 
 .sc-project .project-item .btn-box a + a { margin-left: 10px; }
 
-.sc-project .project-item:hover .img-box img { opacity: 0.4; }
+.sc-project .project-item:hover .img-box img { opacity: 0.3; }
 
 .sc-project .project-item:hover .txt-box { opacity: 1; }
 
@@ -128,6 +128,8 @@ input::-webkit-inner-spin-button, input::-webkit-outer-spin-button, textarea::-w
 
 .sc-project .project-item { position: relative; }
 
-.sc-project .project-item.reverse .txt-box { right: auto; left: 0; text-align: left; }
+.sc-project .project-item.reverse .txt-box { left: auto; right: 0; text-align: right; }
 
-.sc-project .project-item.reverse .btn-box { left: auto; left: 0; }
+.sc-project .project-item.reverse .category-list { -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
+
+.sc-project .project-item.reverse .btn-box { left: auto; right: 0; }
