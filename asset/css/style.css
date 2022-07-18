@@ -76,25 +76,27 @@ input::-ms-clear, input::-ms-reveal, textarea::-ms-clear, textarea::-ms-reveal {
 
 input::-webkit-inner-spin-button, input::-webkit-outer-spin-button, textarea::-webkit-inner-spin-button, textarea::-webkit-outer-spin-button { -webkit-appearance: none; }
 
-.wrapper { width: 100%; height: 100vh; overflow: hidden; }
-
 .blind { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); margin: -1px; }
-
-.hidden, [hidden] { display: none !important; }
 
 .header { background: #000; color: #fff; height: 100vh; }
 
 .header .inner { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 10px 15px; border-bottom: 1px solid #fff; }
 
-.header .logo-area { font-size: 50px; }
+.header .logo-area { font-size: 50px; font-size: 4vw; }
 
 .header .logo-area .link-logo { display: block; }
 
-.header .link-contact { font-size: 30px; }
+.header .link-contact { font-size: 30px; font-size: 2.5vw; }
 
-.header .msg-box { font-size: 130px; height: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; opacity: 0; }
+@media (max-width: 767px) { .header .inner { padding: 6px 10px; }
+  .header .logo-area { font-size: 10vw; }
+  .header .link-contact { font-size: 7vw; } }
+
+.header .msg-box { font-size: 8.5vw; height: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; opacity: 0; }
 
 .header .msg-box .msg-wrap { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+@media (max-width: 767px) { .header .msg-box { font-size: 10vw; } }
 
 .sc-project .project-item { position: relative; }
 

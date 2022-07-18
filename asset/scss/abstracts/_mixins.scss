@@ -21,3 +21,11 @@
         display: none; /* Chrome, Safari, Opera*/
     }
 }
+
+$mobile : 767px;
+
+@mixin mobile{
+    @media (max-width: $mobile){
+      @content;
+    }
+}
