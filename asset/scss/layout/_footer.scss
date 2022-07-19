@@ -9,14 +9,16 @@ footer{
       font-size: 15px;
       color: #fff;
     }
+  }
 
-    @include mobile{
-      .inner{
-        padding: 10px;
+  @include mobile{
+    .inner{
+      padding-left: 10px;
+      padding-bottom: 15px;
+      padding: 0;
 
-        .copy{
-          font-size: 10px;
-        }
+      .copy{
+        font-size: 12px;
       }
     }
   }

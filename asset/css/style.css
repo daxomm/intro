@@ -104,8 +104,8 @@ footer .inner { padding: 20px; display: inline-block; }
 
 footer .inner .copy { font-size: 15px; color: #fff; }
 
-@media (max-width: 767px) { footer .inner .inner { padding: 10px; }
-  footer .inner .inner .copy { font-size: 10px; } }
+@media (max-width: 767px) { footer .inner { padding-left: 10px; padding-bottom: 15px; padding: 0; }
+  footer .inner .copy { font-size: 12px; } }
 
 .sc-project .project-item { position: relative; }
 
@@ -123,7 +123,7 @@ footer .inner .copy { font-size: 15px; color: #fff; }
 
 .sc-project .project-item .link-project .txt-box .category-list { display: -webkit-box; display: -ms-flexbox; display: flex; }
 
-.sc-project .project-item .link-project .txt-box .category-list .category-item { color: #fff; font-size: 20px; letter-spacing: 2.5px; border-radius: 34px; height: 34px; line-height: 34px; padding: 0 10px; border: 1px solid #fff; }
+.sc-project .project-item .link-project .txt-box .category-list .category-item { color: #fff; font-size: 20px; letter-spacing: 2.5px; border-radius: 34px; height: 34px; line-height: 34px; padding: 0 20px; border: 1px solid #fff; }
 
 .sc-project .project-item .link-project .txt-box .category-list .category-item + .category-item { margin-left: 10px; }
 
@@ -131,7 +131,7 @@ footer .inner .copy { font-size: 15px; color: #fff; }
 
 .sc-project .project-item .link-project .txt-box h3 { font-size: 152px; }
 
-@media (max-width: 767px) { .sc-project .project-item .link-project .txt-box h3 { font-size: 13vw; } }
+@media (max-width: 767px) { .sc-project .project-item .link-project .txt-box h3 { font-size: 14vw; } }
 
 .sc-project .project-item .btn-box { position: absolute; padding: 50px; left: 0; top: 58%; opacity: 0; }
 
