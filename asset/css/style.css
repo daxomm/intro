@@ -131,7 +131,7 @@ footer .inner .copy { font-size: 15px; color: #fff; }
 
 .sc-project .project-item .link-project .txt-box h3 { font-size: 152px; }
 
-@media (max-width: 767px) { .sc-project .project-item .link-project .txt-box h3 { font-size: 14vw; } }
+@media (max-width: 767px) { .sc-project .project-item .link-project .txt-box h3 { font-size: 13vw; } }
 
 .sc-project .project-item .btn-box { position: absolute; padding: 50px; left: 0; top: 58%; opacity: 0; }
 
