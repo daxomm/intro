@@ -104,7 +104,7 @@ footer .inner { padding: 20px; display: inline-block; }
 
 footer .inner .copy { font-size: 15px; color: #fff; }
 
-@media (max-width: 767px) { footer .inner { padding-left: 10px; padding-bottom: 15px; padding: 0; }
+@media (max-width: 767px) { footer .inner { padding-left: 10px; padding-bottom: 15px; }
   footer .inner .copy { font-size: 12px; } }
 
 .sc-project .project-item { position: relative; }
