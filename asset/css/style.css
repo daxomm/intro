@@ -138,7 +138,7 @@ footer .inner .copy { font-size: 15px; color: #fff; }
 .sc-project .project-item .btn-box a { background: #fff; color: #000; font-size: 22px; letter-spacing: 2.5px; border-radius: 34px; height: 34px; line-height: 34px; padding: 0 20px; }
 
 @media (max-width: 767px) { .sc-project .project-item .btn-box { padding: 10px; }
-  .sc-project .project-item .btn-box a { font-size: 5.5vw; padding: 0 10px; } }
+  .sc-project .project-item .btn-box a { font-size: 5.5vw; padding: 0 10px; letter-spacing: 2px; } }
 
 .sc-project .project-item .btn-box a + a { margin-left: 10px; }
 
