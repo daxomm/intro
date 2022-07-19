@@ -9,6 +9,16 @@ footer{
       font-size: 15px;
       color: #fff;
     }
+
+    @include mobile{
+      .inner{
+        padding: 10px;
+
+        .copy{
+          font-size: 10px;
+        }
+      }
+    }
   }
 }
 
