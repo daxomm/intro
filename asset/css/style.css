@@ -22,7 +22,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 /* @세팅구역 */
 html { font-size: 62.5%; }
 
-body { font-family: 'boogy',Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif; background: #070401; color: #fff; -ms-overflow-style: none; /* IE and Edge */ scrollbar-width: none; /* Firefox */ font-size: 1.6rem; }
+body { min-width: 320px; font-family: 'boogy',Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif; background: #070401; color: #fff; -ms-overflow-style: none; /* IE and Edge */ scrollbar-width: none; /* Firefox */ font-size: 1.6rem; }
 
 body::-webkit-scrollbar { display: none; }
 

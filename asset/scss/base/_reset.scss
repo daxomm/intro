@@ -51,8 +51,9 @@ table {
 html{
     font-size: 62.5%;
 }
+
 body {
-    // font-family: 'Noto Serif Display', serif;
+    min-width: 320px;
     font-family: 'boogy',Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
     background: #070401;
     color: #fff;
